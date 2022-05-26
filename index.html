@@ -73,24 +73,55 @@
                      <use href="./image/symbol-defs1.svg#icon-close"></use>
                    </svg>
                  </button>
-                 <form class="client-form" name="clform" autocomplete="on">
+                 <form class="form" name="clform" autocomplete="on">
                    <p class="title-form">Оставьте свои данные, мы вам перезвоним</p>
-                   <label class="label-frm user-name">Имя
-                     <input type="text" name="username" autofocus>
+                   <div class="form-field">
+                     <label class="label-frm user-name">Имя
+                       <input 
+                         class="input-form"
+                         type="text" 
+                         name="username" 
+                         autofocus>
                     </label>
-                   <label class="label-form phon-number">Телефон
-                     <input type="tel" name="user-telephon" autofocus>
+                   </div>
+                   <div class="form-field">
+                     <label class="label-frm phon-number">Телефон
+                       <input
+                          class="input-form" 
+                          type="tel" 
+                          name="user-telephon" 
+                          autofocus>
                     </label>
-                   <label class="label-frm user-email">Почта
-                     <input type="email" name="email" autofocus>
+                   </div>
+                   <div class="form-field">
+                     <label class="label-frm user-email">Почта
+                       <input 
+                          class="input-form"
+                          type="email" 
+                          name="email" 
+                          autofocus>
                     </label>
-                   <label class="label-frm user-coment">Комментарий
-                     <textarea name="coments" rows="5" placeholder="Введите текст"></textarea>
+                   </div>
+                   <div class="form-field">
+                     <label class="label-frm user-coment">Комментарий
+                          <textarea 
+                              class="textarea input-form"
+                             name="coments" 
+                             rows="5" 
+                             placeholder="Введите текст"></textarea>
                     </label>
-                   <label class="label-frm user-contract">
-                     <input type="checkbox" name="contract">
-                     Соглашаюсь с рассылкой и принимаю Условия договора
+                   </div>
+                   <div class="form-field check-field">
+                     <label class="label-frm user-contract">
+                     <input
+                       class="checkbox-form"
+                       type="checkbox"
+                        name="contract">
+                     Соглашаюсь с рассылкой и принимаю
+                     <a class="link-form" href="">Условия договора</a>
                     </label>
+                   </div>
+     
                    <button class="tbn-submit">Отправить</button>
                  </form>
                </div>
@@ -451,6 +482,19 @@
                    </a>
                  </li>
                </ul>
+        </div>
+        <div class="one-two sibscribe">
+          <p class="title-social footer-">Подпишитесь на рассылку</p>
+          <label class="fotter-lable">
+            <input 
+              type="email" 
+              name="email" 
+              autocomplete="on" 
+              placeholder="E-mail" 
+              autofocus>
+          </label>
+          <button class="button">Подписаться</button>
+
         </div>
       </div>
       
